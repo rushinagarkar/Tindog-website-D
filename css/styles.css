@@ -1,0 +1,168 @@
+
+body{
+  text-align: center;
+  height: 2080px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: fantasy;
+  line-height: 1.5;
+}
+
+.color-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-md{
+  padding: 3% 10%;
+}
+
+.h1_1{
+  font-size: 3.5rem;
+}
+
+/* navigation */
+
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.container{
+  padding: 2% 5%;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Download Button */
+
+.Download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+
+.title-image{
+  width: 73%;
+  transform: rotate(20deg);
+}
+
+@media (max-width: 1000px) {
+  .title-image{
+    width: 60%;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Features section */
+
+.Features-lg{
+  background-color: white;
+  padding-top: 2%;
+  position: relative;
+  bottom: 200px;
+}
+
+@media (max-width: 1000px) {
+  .Features-lg{
+    bottom: 100px;
+  }
+}
+
+#features{
+  margin: 5% 13%;
+}
+
+.col-lg-4{
+  padding: 5% 6%;
+}
+
+.h3-style{
+  font-size: 1.5rem;
+}
+
+.icon {
+  color: orange;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: skyblue;
+}
+
+.container-md-2{
+  padding: 5% 15%;
+}
+
+/* Testimonials section */
+
+
+.carousel-item{
+    padding: 8% 15%;
+}
+
+.h2-style{
+  font-size: 2.9rem;
+}
+
+.testimonial-image{
+  width: 20%;
+  border-radius: 100%;
+  margin: 3% 2%;
+}
+
+.em-font{
+  font-family:sans-serif;
+}
+
+@media (max-width: 600px)  {
+  .h2-style{
+    font-family:inherit;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  .h1_1{
+    font-size: 2.5rem;
+    line-height: 1.5;
+  }
+}
+
+/* Press section FF4367*/
+
+#press{
+  padding-bottom: 3% ;
+}
+
+.press-img{
+  width: 20%;
+  padding: 0% 2%;
+}
+
+/* Pricing section */
+
+#pricing{
+  padding: 50px 100px;
+}
+
+   /* Call to Action  */
+
+#cta{
+  padding: 0% 23%;
+  margin-bottom: 0;
+}
+
+/* footer section */
+
+.i-pad{
+  margin: 1px 3px;
+}
